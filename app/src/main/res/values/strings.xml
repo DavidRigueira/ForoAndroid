@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Foro</string>
+    <string name="mis_datos">Mis Datos</string>
+    <string name="login">Login</string>
+    <string name="logout">Logout</string>
+    <string name="mis_puntos">Mis Puntos</string>
+    <string name="register">Register</string>
+</resources>

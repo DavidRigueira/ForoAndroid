@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.foro">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Foro">
+        <activity android:name=".login.PersonalInformation"></activity>
+        <activity android:name=".login.Points" />
+        <activity android:name=".login.RegisterUser" />
+        <activity android:name=".activity.ViewPost" />
+        <activity android:name=".activity.EditPost" />
+        <activity android:name=".login.Login" />
+        <activity android:name=".activity.AddPostList" />
+        <activity android:name=".activity.AddCategory" />
+        <activity android:name=".activity.AddTopicList" />
+        <activity android:name=".activity.AddBoardList" />
+        <activity android:name=".activity.Post" />
+        <activity android:name=".activity.Topic" />
+        <activity android:name=".activity.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
